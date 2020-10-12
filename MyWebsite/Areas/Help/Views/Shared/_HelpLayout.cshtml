@@ -1,0 +1,11 @@
+﻿@{ 
+    Layout = "_Layout";
+}
+@section header{ 
+    <h1>Help Page</h1>
+}
+<nav class="nav nav-tabs">
+    <a asp-controller="Home" asp-action="Index">Home</a> |
+    <a asp-controller="Tutorial" asp-action="Tutorial">Tutorial</a> |
+</nav>
+@RenderBody()
